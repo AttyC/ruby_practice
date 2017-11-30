@@ -6,7 +6,7 @@ def game
   rounds = 1
 
 #loop though die rolls
-  while (p1_wins < 2 && p2_wins < 2)
+  while (p1_wins < 2 && p2_wins < 2) do
 
   puts "Ding! Ding! Round " + rounds.to_s
   #random die rolls nos 1-12 (instead of two separate rolls)
